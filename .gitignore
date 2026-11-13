@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+#documentation
+PLAN.md
+
+# Project data, outputs, secrets
+/data/
+/runs/
+/journal/
+*.pt
+*.ckpt
+*.onnx
+*.engine
+.env
+
+# Local tutor rules (not public)
+CLAUDE.md
